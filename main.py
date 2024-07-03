@@ -55,7 +55,7 @@ def display_playlist_tracks(tracks):
 
     return track_strings
 
-playlist_id = "1mk0B2MAavTg5iquYD2tBB"
+playlist_id = "playlist_id"
 token = get_token()
 tracks = get_playlist_tracks(token, playlist_id)
 track_strings = display_playlist_tracks(tracks)
